@@ -12,7 +12,7 @@ import java.util.Collection;
 public class StudentService {
     //Initialize the studentDao so as to access it's methods.
     @Autowired
-    @Qualifier("mongoData")
+    @Qualifier("fakeData")
     private StudentDao studentDao;
 
     //A method that gets all the student in our fake database
